@@ -14,3 +14,34 @@ body {
   color: #60424c;
   font-weight: 300;
   line-height: 1.6; }
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content); }
+
+.header {
+  background-color: chartreuse; }
+
+.sidebar {
+  background-color: cornflowerblue; }
+
+.footer {
+  background-color: black; }
+
+.cars {
+  background-color: antiquewhite; }
+
+.features {
+  background-color: aqua; }
+
+.gallery {
+  background-color: brown; }
+
+.story__pictures {
+  background-color: darkseagreen; }
+
+.story__contents {
+  background-color: #f9f7f6; }
+
+.vendors {
+  background-color: gray; }
