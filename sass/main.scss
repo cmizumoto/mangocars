@@ -1,3 +1,12 @@
-body {
-  background-color: red;
-}
+@import "base";
+@import "typography";
+
+@import "header";
+@import "sidebar";
+@import "footer";
+
+@import "cars";
+@import "features";
+@import "gallery";
+@import "story";
+@import "vendors";
