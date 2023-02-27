@@ -1,4 +1,33 @@
 .cars {
-  background-color: antiquewhite;
   grid-column: center-start / center-end;
+  margin: 15rem 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 7rem;
+}
+
+.car {
+  background-color: $color-grey-light-1;
+
+  &__img {
+    width: 100%;
+  }
+
+  &__fav {
+  }
+  &__name {
+  }
+  &__location,
+  &__km,
+  &__year,
+  &__price {
+    svg {
+      fill: $color-primary-dark;
+      height: 2rem;
+      width: 2rem;
+    }
+    p {
+    }
+  }
 }

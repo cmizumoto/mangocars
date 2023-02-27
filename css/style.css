@@ -85,8 +85,20 @@ body {
   grid-column: full-start / full-end; }
 
 .cars {
-  background-color: antiquewhite;
-  grid-column: center-start / center-end; }
+  grid-column: center-start / center-end;
+  margin: 15rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 7rem; }
+
+.car {
+  background-color: #f9f7f6; }
+  .car__img {
+    width: 100%; }
+  .car__location svg, .car__km svg, .car__year svg, .car__price svg {
+    fill: #ff5959;
+    height: 2rem;
+    width: 2rem; }
 
 .features {
   grid-column: center-start / center-end;
