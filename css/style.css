@@ -24,12 +24,52 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 400; }
 
+.heading-2 {
+  font-size: 4rem;
+  font-style: italic;
+  line-height: 1; }
+  .heading-2--light {
+    color: #f9f7f6; }
+  .heading-2--dark {
+    color: #60424c; }
+
+.heading-3 {
+  font-size: 1.6rem;
+  color: #ff8f56;
+  text-transform: uppercase; }
+
 .heading-4 {
   font-size: 1.9rem; }
   .heading-4--light {
     color: #f9f7f6; }
   .heading-4--dark {
     color: #60424c; }
+
+.btn {
+  background-color: #ff8f56;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: all 0.2s; }
+  .btn:hover {
+    background-color: #ff5959; }
+
+.margin-bottom-sm {
+  margin-bottom: 2rem; }
+
+.margin-bottom-md {
+  margin-bottom: 3rem; }
+
+.margin-bottom-lg {
+  margin-bottom: 4rem; }
+
+.margin-bottom-hg {
+  margin-bottom: 8rem; }
 
 .header {
   background-color: chartreuse;
@@ -80,7 +120,16 @@ body {
 
 .story__contents {
   background-color: #f9f7f6;
-  grid-column: col-start 5 / full-end; }
+  grid-column: col-start 5 / full-end;
+  padding: 6rem 8vw;
+  display: grid;
+  align-content: center;
+  justify-items: start; }
+
+.story__text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4rem; }
 
 .vendors {
   background-color: gray;
