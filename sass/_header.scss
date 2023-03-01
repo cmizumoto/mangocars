@@ -16,6 +16,14 @@
   gap: 1.5rem 0;
   justify-content: center;
 
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 1 / -1;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 5rem;
+  }
+
   &__logo {
     height: 5rem;
     filter: invert(80%) sepia(40%) saturate(4987%) hue-rotate(323deg) brightness(105%)
