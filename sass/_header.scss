@@ -1,4 +1,38 @@
 .header {
-  background-color: chartreuse;
+  background-color: $color-secondary-dark;
   grid-column: full-start / col-end 6;
+  background-image: linear-gradient(
+      rgba($color-secondary-dark, 0.93),
+      rgba($color-secondary-dark, 0.93)
+    ),
+    url("https://images.unsplash.com/photo-1565043666747-69f6646db940?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 8rem;
+
+  display: grid;
+  grid-template-rows: 1fr min-content 6rem 1fr;
+  grid-template-columns: max-content;
+  gap: 1.5rem 0;
+  justify-content: center;
+
+  &__logo {
+    height: 5rem;
+    filter: invert(80%) sepia(40%) saturate(4987%) hue-rotate(323deg) brightness(105%)
+      contrast(101%);
+    justify-self: center;
+  }
+
+  &__btn {
+    align-self: start;
+    justify-self: start;
+  }
+
+  &__seenon-text {
+  }
+  &__seenon-logos {
+    img {
+      height: 2.5rem;
+    }
+  }
 }
