@@ -28,6 +28,10 @@
   font-size: 1.6rem;
   color: $color-primary;
   text-transform: uppercase;
+
+  & span {
+    transform: translateY(5rem);
+  }
 }
 .heading-4 {
   @extend %heading;

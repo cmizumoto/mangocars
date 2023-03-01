@@ -42,6 +42,8 @@ body {
   font-size: 1.6rem;
   color: #ff8f56;
   text-transform: uppercase; }
+  .heading-3 span {
+    transform: translateY(5rem); }
 
 .heading-4 {
   font-size: 1.9rem; }
@@ -184,7 +186,7 @@ body {
   background-color: #f9f7f6;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3.5rem 0; }
+  row-gap: 3.5rem; }
   .car__img {
     width: 100%;
     grid-row: 1 / 2;
@@ -350,5 +352,24 @@ body {
   margin-bottom: 4rem; }
 
 .vendors {
-  background-color: gray;
-  grid-column: col-start 7 / full-end; }
+  background-color: #60424c;
+  grid-column: col-start 7 / full-end;
+  padding: 3rem;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  row-gap: 2rem; }
+  .vendors__list {
+    display: grid;
+    grid-template-columns: min-content max-content;
+    gap: 5vh 2rem;
+    align-items: center; }
+  .vendors__img {
+    width: 7rem;
+    border-radius: 50%;
+    display: block; }
+  .vendors__sold {
+    text-transform: uppercase;
+    color: #aaa;
+    margin-top: -3px; }
