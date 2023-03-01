@@ -4,4 +4,6 @@ A project to test some concepts of grid in CSS, making a website for a cars deal
 
 ## Live Version
 
-Once the project is finished, this will be updated.
+Link for the live version:
+
+[https://marvelous-lamington-e841c5.netlify.app/](https://marvelous-lamington-e841c5.netlify.app/)
